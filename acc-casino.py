@@ -16,6 +16,7 @@ if username == 'npc123' and password == 'notnpc123':
     bankAccount = input('How many you wanna to topup: ')
     gambling = input('How many you wanna gamble: ')
     balanceAccount = int(bankAccount) - int(gambling)
+    tprint('loser')
     print(f'Loser! your current balance: {balanceAccount}')
 else: 
     print('Access Denied!')
